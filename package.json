@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "preconstruct build",
-    "release": "yarn build && npm publish"
+    "release": "yarn build && npm publish",
+    "demo": "cd demo && yarn dev"
   },
   "repository": {
     "type": "git",
